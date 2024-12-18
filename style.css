@@ -1,0 +1,163 @@
+body{
+    background-color: rgb(247, 154, 131);
+    margin: 0;
+    padding: 0;
+}
+.imagelogo{
+    width: 85px;
+    margin: 20px 25px 20px 25px;
+
+}
+.imagelogo img{
+    width: 100%;
+}
+.tabs ul{
+    display: flex;
+    column-gap: 25px;
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 45px;
+    padding-left: 20px;
+    font-family: 'Korolev';
+    font-weight: 500px;
+    font-size: 22px;
+    color: white;
+}
+.socialimages{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 45px;
+    column-gap: 5px;
+
+
+}
+
+
+.socialimages img{
+    width: 100%;
+}
+
+
+.navbar{
+    background-color:rgb(247, 154, 131);
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid white;
+    z-index: 999;
+}
+.right-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.content{
+    width: 1519px;
+    height: 100%;
+
+}
+.content img{
+    width: 100%;
+    padding-top: 120px;
+}
+.text-banner{
+    font-family: 'korolev';
+    font-weight: 800;
+    font-size: 65px;
+    color: white;
+    margin-top: -560px;
+    margin-left: 136px;
+    line-height: 80px;
+    
+}
+.explore{
+    margin-top: -28px;
+}
+.explore button{
+    font-family: 'korolev';
+    color: white;
+    font-size: 20px;
+    margin-top: -50px;
+    margin-left: 155px;
+    background: transparent;
+    border-radius: 30px;
+    border-color: white;
+    border-style: solid;
+    padding: 10px;
+}
+.content-2{                      
+    width: 1519px;
+    height: 493px;
+}
+.content-2 img{
+    width: 100%;
+    margin-top: 260px;
+}
+.center-text{                       
+    position: relative;
+    width: 700px;
+    height: 200px;
+    border-radius: 80px;
+    background-color: rgba(9, 62, 9, 0.6);
+    margin-top: -435px;
+    margin-left: 380px;
+    z-index: 2;
+    text-align: center;
+}
+.center-text h1{
+    color: white;
+    font-family: 'korolev';
+    font-size: 36px;
+    font-weight: 10px;
+    padding: 20px 20px 0px 10px;
+}
+.center-text p{
+    color: white;
+    font-family:  'korolev';
+    font-size: 20px;
+    font-weight: 10px;
+    padding: -5px 20px 0px -5px;
+}
+.center-text button{
+    background: transparent;
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    color: white;
+    border-color: white;
+    font-size: 15px;
+}
+.content-3{
+    width: 1519px;
+}
+.content-3 img{
+    width: 100%;
+    margin-top: 495px;
+}
+.footer{
+    width: 1519px;
+    margin-top: 206px;;
+    background-color: rgb(62, 62, 62);
+}
+.footer .footer-text ul{
+    width: 97%;
+    height: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+    column-gap: 40px;
+    padding-top: 10px;
+    font-family:  'korolev';
+    font-size: 15px;
+} 
+ .bottom{
+    color: white;
+    font-family:  'korolev';
+    font-size: 15px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;   
+}
